@@ -1,0 +1,84 @@
+# 🎨 Assets
+
+## Vazifasi
+
+Bu papka Sardoba Market loyihasining barcha media fayllari uchun mo'ljallangan.
+
+Bu yerda loyiha dizayni va vizual elementlari saqlanadi.
+
+---
+
+## Ushbu papkada nima bo'ladi?
+
+Assets papkasida quyidagilar saqlanadi:
+
+- Logo
+- Ikonkalar
+- Bannerlar
+- Rasmlar
+- Splash Screen
+- Fontlar
+- Ilova uchun kerakli media fayllar
+
+---
+
+## Papka tuzilishi
+
+assets/
+
+├── logo/
+
+├── icons/
+
+├── images/
+
+├── fonts/
+
+├── animations/
+
+├── splash/
+
+└── README.md
+
+---
+
+## Kim ishlaydi?
+
+Asosan UI/UX dizaynerlar va Frontend (Flutter/Web) dasturchilar.
+
+Backend dasturchisi bu papkaga kod yozmaydi.
+
+---
+
+## Asosiy vazifalar
+
+- Barcha media fayllarni bir joyda saqlash
+- Dizaynni bir xil uslubda olib borish
+- Keraksiz rasmlarni saqlamaslik
+- Fayl nomlarini tartibli yozish
+
+---
+
+## Muhim qoidalar
+
+- Logo o'zgarsa faqat shu papkada yangilanadi.
+- Rasm nomlari ingliz tilida yoziladi.
+- Katta hajmdagi fayllar optimallashtirilgan bo'lishi kerak.
+- Ikonkalarning o'lchami standart bo'lishi kerak.
+
+---
+
+## Kelajakdagi funksiyalar
+
+- AI tomonidan yaratilgan bannerlar
+- AI ikonkalari
+- Marketing materiallari
+- Reklama bannerlari
+- Promo videolar
+- Splash animatsiyalari
+
+---
+
+Project: Sardoba Market
+
+Module: Assets

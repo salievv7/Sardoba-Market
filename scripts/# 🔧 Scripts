@@ -1,0 +1,79 @@
+# 🔧 Scripts
+
+## Vazifasi
+
+Bu papka Sardoba Market loyihasida takrorlanadigan ishlarni avtomatlashtirish uchun yozilgan skriptlarni saqlash uchun mo'ljallangan.
+
+---
+
+## Ushbu papkada nima bo'ladi?
+
+Kelajakda quyidagi skriptlar shu yerda saqlanadi:
+
+- Database yaratish
+- Database tozalash
+- Test ma'lumotlarini qo'shish
+- Backup olish
+- Serverni ishga tushirish
+- Loyihani Build qilish
+- Deployment skriptlari
+- Loglarni tozalash
+
+---
+
+## Kim ishlaydi?
+
+Asosan Backend va DevOps dasturchilari.
+
+Zarurat bo'lsa boshqa dasturchilar ham foydalanishi mumkin.
+
+---
+
+## Asosiy vazifalar
+
+- Takrorlanadigan ishlarni avtomatlashtirish.
+- Bir xil buyruqlarni qayta-qayta yozmaslik.
+- Jamoa uchun ishni tezlashtirish.
+
+---
+
+## Taxminiy papka tuzilishi
+
+scripts/
+
+├── database/
+
+├── backup/
+
+├── deployment/
+
+├── testing/
+
+├── maintenance/
+
+└── README.md
+
+---
+
+## Muhim qoidalar
+
+- Har bir skript nima qilishini izohlash kerak.
+- Skript nomlari ingliz tilida yoziladi.
+- Ishlatishdan oldin sinovdan o'tkaziladi.
+- Muhim skriptlar dokumentatsiyada ko'rsatiladi.
+
+---
+
+## Kelajakdagi funksiyalar
+
+- Bir klik bilan serverni ishga tushirish.
+- Avtomatik Backup.
+- Database Migration.
+- Docker skriptlari.
+- CI/CD avtomatlashtirish.
+
+---
+
+Project: Sardoba Market
+
+Module: Scripts

@@ -1,0 +1,87 @@
+# 🔗 Shared
+
+## Vazifasi
+
+Bu papka Mobile, Backend, Website va Admin tomonidan birgalikda foydalaniladigan umumiy kodlar va resurslar uchun mo'ljallangan.
+
+Kod takrorlanmasligi uchun umumiy fayllar shu yerda saqlanadi.
+
+---
+
+## Ushbu papkada nima bo'ladi?
+
+Shared papkasida quyidagilar saqlanishi mumkin:
+
+- Umumiy Model (Models)
+- DTO (Data Transfer Objects)
+- Enum lar
+- Constants
+- Validation qoidalari
+- API javob formatlari
+- Utility funksiyalar
+- Global konfiguratsiyalar
+- Umumiy Type lar
+
+---
+
+## Kim ishlaydi?
+
+Barcha dasturchilar.
+
+Lekin faqat zarurat bo'lganda.
+
+Har qanday o'zgarish butun loyihaga ta'sir qilishi mumkin.
+
+---
+
+## Asosiy vazifalar
+
+- Kodni takrorlanishini oldini olish
+- Barcha modullar uchun yagona standart yaratish
+- Loyiha arxitekturasini bir xil ushlab turish
+
+---
+
+## Taxminiy papka tuzilishi
+
+shared/
+
+├── models/
+
+├── dto/
+
+├── enums/
+
+├── constants/
+
+├── types/
+
+├── utils/
+
+└── README.md
+
+---
+
+## Muhim qoidalar
+
+- Faqat umumiy kodlar yoziladi.
+- Keraksiz kod qo'shilmaydi.
+- O'zgartirishdan oldin jamoa bilan kelishiladi.
+- Kod barcha modullar bilan mos bo'lishi kerak.
+
+---
+
+## Kelajakdagi funksiyalar
+
+- Global Error Handler
+- Logger
+- AI Utility
+- Cache Utility
+- Security Helper
+- File Helper
+
+---
+
+Project: Sardoba Market
+
+Module: Shared Resources

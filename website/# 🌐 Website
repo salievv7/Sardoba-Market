@@ -1,0 +1,89 @@
+# 🌐 Website
+
+## Vazifasi
+
+Bu papka Sardoba Market rasmiy web sayti uchun mo'ljallangan.
+
+Website platformaning internetdagi rasmiy yuzi hisoblanadi va foydalanuvchilar hamda do'kon egalariga kerakli ma'lumotlarni taqdim etadi.
+
+---
+
+## Ushbu papkada nima bo'ladi?
+
+Website quyidagi sahifalardan iborat bo'ladi:
+
+- Bosh sahifa
+- Loyiha haqida
+- Platforma imkoniyatlari
+- Do'konlar ro'yxati
+- Mahsulot qidiruvi
+- Yangiliklar
+- Bog'lanish
+- Ilovani yuklab olish sahifasi
+- Maxfiylik siyosati
+- Foydalanish shartlari
+
+---
+
+## Kim ishlaydi?
+
+Faqat Website (Frontend) dasturchisi.
+
+Backend va Mobile dasturchilari bu papkaga kod yozmaydi.
+
+---
+
+## Asosiy vazifalar
+
+- Platformani internetda tanishtirish
+- Google qidiruvida chiqish (SEO)
+- Yangi foydalanuvchilarni jalb qilish
+- Ilovani yuklab olish imkonini yaratish
+- Do'konlar haqida ma'lumot berish
+
+---
+
+## Taxminiy papka tuzilishi
+
+website/
+
+├── src/
+
+├── public/
+
+├── components/
+
+├── pages/
+
+├── assets/
+
+├── package.json
+
+└── README.md
+
+---
+
+## Muhim qoidalar
+
+- Sayt tez yuklanishi kerak.
+- Mobil qurilmalarga mos bo'lishi kerak.
+- SEO qoidalariga amal qilinadi.
+- Dizayn Mobile ilovaga mos bo'lishi kerak.
+- Kod toza va tartibli yoziladi.
+
+---
+
+## Kelajakdagi funksiyalar
+
+- AI qidiruv
+- Onlayn statistika
+- Interaktiv xarita
+- Blog
+- Reklama bannerlari
+- Ko'p tilli tizim
+
+---
+
+Project: Sardoba Market
+
+Module: Official Website

@@ -1,0 +1,102 @@
+# 📄 Documentation
+
+## Vazifasi
+
+Bu papka Sardoba Market loyihasining barcha texnik va biznes hujjatlarini saqlash uchun mo'ljallangan.
+
+Kod yozishdan oldin har qanday yangi funksiya yoki o'zgarish shu yerda hujjatlashtiriladi.
+
+---
+
+## Ushbu papkada nima bo'ladi?
+
+Bu papkada quyidagi hujjatlar saqlanadi:
+
+- Loyiha tavsifi
+- Texnik topshiriq (SRS)
+- Roadmap
+- Database tuzilishi
+- API hujjatlari
+- UI/UX tavsifi
+- Biznes modeli
+- AI moduli
+- GitHub qoidalari
+- Arxitektura diagrammalari
+
+---
+
+## Tavsiya etilgan hujjatlar
+
+docs/
+
+├── Project.md
+
+├── Roadmap.md
+
+├── Database.md
+
+├── API.md
+
+├── UI.md
+
+├── Business.md
+
+├── AI.md
+
+├── Architecture.md
+
+└── README.md
+
+---
+
+## Kim ishlaydi?
+
+Founder
+
+CTO
+
+Project Manager
+
+Backend
+
+Frontend
+
+UI/UX Designer
+
+Har bir jamoa a'zosi kerak bo'lganda hujjatlarni yangilashi mumkin.
+
+---
+
+## Asosiy vazifalar
+
+- Loyiha haqida barcha ma'lumotlarni saqlash.
+- Yangi dasturchilar uchun qo'llanma bo'lish.
+- Loyiha rivojlanishini hujjatlashtirish.
+- Kelajakdagi rejalarni yozib borish.
+
+---
+
+## Muhim qoidalar
+
+- Kod yozishdan oldin hujjat yoziladi.
+- Har bir katta o'zgarish hujjatlashtiriladi.
+- Eski hujjatlar o'chirilmaydi, yangilanadi.
+- Hujjatlar aniq va tushunarli yoziladi.
+
+---
+
+## Kelajakdagi funksiyalar
+
+- API diagrammalari
+- ER Diagram
+- Server arxitekturasi
+- Deployment qo'llanmasi
+- Test hujjatlari
+- Release Notes
+- Version History
+
+---
+
+Project: Sardoba Market
+
+Module: Documentation

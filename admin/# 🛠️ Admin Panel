@@ -1,0 +1,88 @@
+# 🛠️ Admin Panel
+
+## Vazifasi
+
+Bu papka Sardoba Market platformasining boshqaruv paneli hisoblanadi.
+
+Admin platformaning xavfsizligi, tartibi va ishlashini nazorat qiladi.
+
+---
+
+## Ushbu papkada nima bo'ladi?
+
+Admin quyidagi imkoniyatlarga ega bo'ladi:
+
+- Yangi do'konlarni tasdiqlash
+- Do'konlarni bloklash yoki faollashtirish
+- Mahsulotlarni nazorat qilish
+- Foydalanuvchilarni boshqarish
+- Buyurtmalar statistikasi
+- Platforma statistikasi
+- Shikoyatlarni ko'rish
+- Banner va reklama boshqaruvi
+- Kategoriyalarni boshqarish
+- AI tavsiyalarini kuzatish
+
+---
+
+## Kim ishlaydi?
+
+Faqat Admin Panel dasturchisi.
+
+Mobile va Website dasturchilari bu papkaga kod yozmaydi.
+
+---
+
+## Asosiy vazifalar
+
+- Platformani boshqarish
+- Nizolarni hal qilish
+- Soxta do'konlarni aniqlash
+- Tizim faoliyatini nazorat qilish
+- Hisobotlarni ko'rish
+
+---
+
+## Taxminiy papka tuzilishi
+
+admin/
+
+├── src/
+
+├── pages/
+
+├── components/
+
+├── services/
+
+├── assets/
+
+├── package.json
+
+└── README.md
+
+---
+
+## Muhim qoidalar
+
+- Admin panel oddiy va tez ishlashi kerak.
+- Har bir amal logga yoziladi.
+- Admin huquqlari qat'iy nazorat qilinadi.
+- Muhim amallar tasdiqlash bilan bajariladi.
+
+---
+
+## Kelajakdagi funksiyalar
+
+- AI orqali firibgarlikni aniqlash
+- AI orqali hisobot yaratish
+- Do'konlar reytingi
+- Xarita orqali do'konlarni kuzatish
+- Real vaqt statistikasi
+- Dashboard analitikasi
+
+---
+
+Project: Sardoba Market
+
+Module: Admin Panel

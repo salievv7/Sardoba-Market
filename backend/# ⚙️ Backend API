@@ -1,0 +1,94 @@
+# ⚙️ Backend API
+
+## Vazifasi
+
+Bu papka Sardoba Market platformasining yuragi hisoblanadi.
+
+Backend barcha ma'lumotlarni saqlaydi, qayta ishlaydi va Mobile, Website hamda Admin Panel bilan bog'laydi.
+
+---
+
+## Ushbu papkada nima bo'ladi?
+
+Backend quyidagi vazifalarni bajaradi:
+
+- Foydalanuvchilarni boshqarish
+- Do'konlarni boshqarish
+- Mahsulotlarni boshqarish
+- Kategoriyalar
+- Buyurtmalar (Bron)
+- Admin funksiyalari
+- Lokatsiya
+- Qidiruv tizimi
+- Bildirishnomalar
+- Sun'iy intellekt (AI) bilan ishlash
+- API yaratish
+- Database bilan ishlash
+
+---
+
+## Kim ishlaydi?
+
+Backend dasturchilar.
+
+Mobile yoki Website dasturchisi bu papkaga kod yozmaydi.
+
+---
+
+## Asosiy vazifalar
+
+- API yaratish
+- Database bilan ishlash
+- Xavfsizlikni ta'minlash
+- Tez ishlaydigan server yaratish
+- Mobile va Website uchun ma'lumot yuborish
+
+---
+
+## Taxminiy papka tuzilishi
+
+backend/
+
+├── src/
+
+├── database/
+
+├── modules/
+
+├── uploads/
+
+├── config/
+
+├── tests/
+
+├── package.json
+
+└── README.md
+
+---
+
+## Muhim qoidalar
+
+- API REST standartida yoziladi.
+- Har bir modul alohida papkada bo'ladi.
+- Kodlar tartibli va o'qilishi oson bo'lishi kerak.
+- Database bilan ishlash optimallashtirilgan bo'lishi kerak.
+- Xavfsizlik har doim birinchi o'rinda turadi.
+
+---
+
+## Kelajakdagi funksiyalar
+
+- AI tavsiya tizimi
+- Aqlli mahsulot qidiruvi
+- Hisobotlar
+- Statistika
+- Cache tizimi
+- Real vaqt bildirishnomalari
+- Analitika
+
+---
+
+Project: Sardoba Market
+
+Module: Backend API
