@@ -7,12 +7,13 @@ const PORT = 5000;
 app.use(express.json());
 
 // PostgreSQL bazasiga ulanish sozlamalari
+// DIQQAT: 'PAROLINGIZ' o'rniga o'zingizning pgAdmin parolingizni yozing!
 const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
     database: 'sardoba_market',
-    password: '14112011', // <-- pgAdmin-ga kirgan parolingizni yozing
-    port: 5432, // PostgreSQL 17 standart porti
+    password: '14112011', 
+    port: 5432, 
 });
 
 // 1. Status API
@@ -43,6 +44,48 @@ app.post('/api/shops', async (req, res) => {
             [name, category]
         );
         res.status(201).json({ message: "Do'kon bazaga muvaffaqiyatli saqlandi!", shop: newShop.rows[0] });
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).json({ error: "Serverda xatolik yuz berdi" });
+    }
+});
+
+// =================== YANGI QO'SHILGAN FUNKSIYALAR ===================
+
+// 4. Do'kon ma'lumotlarini yangilash (PUT)
+app.put('/api/shops/:id', async (req, res) => {
+    const { id } = req.params;
+    const { name, category, status } = req.body;
+    
+    try {
+        const updateShop = await pool.query(
+            'UPDATE shops SET name = $1, category = $2, status = $3 WHERE id = $4 RETURNING *',
+            [name, category, status, id]
+        );
+
+        if (updateShop.rows.length === 0) {
+            return res.status(404).json({ error: "Bunday ID dagi do'kon topilmadi!" });
+        }
+
+        res.json({ message: "Do'kon ma'lumotlari yangilandi!", shop: updateShop.rows[0] });
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).json({ error: "Serverda xatolik yuz berdi" });
+    }
+});
+
+// 5. Do'konni bazadan o'chirish (DELETE)
+app.delete('/api/shops/:id', async (req, res) => {
+    const { id } = req.params;
+    
+    try {
+        const deleteShop = await pool.query('DELETE FROM shops WHERE id = $1 RETURNING *', [id]);
+
+        if (deleteShop.rows.length === 0) {
+            return res.status(404).json({ error: "Bunday ID dagi do'kon topilmadi!" });
+        }
+
+        res.json({ message: "Do'kon bazadan muvaffaqiyatli o'chirildi!", deletedShop: deleteShop.rows[0] });
     } catch (err) {
         console.error(err.message);
         res.status(500).json({ error: "Serverda xatolik yuz berdi" });
